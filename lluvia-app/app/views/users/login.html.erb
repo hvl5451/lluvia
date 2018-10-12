@@ -1,0 +1,17 @@
+<html>
+  <body>
+    <div class="video-wrapper">
+
+      <%=video_tag "rainystreet.mp4", controls: false, autoplay: true, muted: true, loop: true, id: "bkgndvdo", class: "fullscreen-bg-video", type: "video/mp4"%>
+
+      <div style="color:green; font-size:18vw;"class="title-overlay">
+        <h1>Your weather. Your mood. Your music.</h1>
+      </div>
+
+      <div class="button-overlay">
+        <%= link_to "Sign in with Spotify", "/auth/spotify", class: "btn btn-lg btn-login" %>
+      </div>
+
+    </div>
+  </body>
+</html

@@ -1,0 +1,86 @@
+@import 'bootstrap';
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+ .video-wrapper {
+   position: fixed;
+   top: 50%; left: 51.5%;
+   z-index: 0;
+   min-width: 100%;
+   min-height: 100%;
+   transform: translate(-50%, -50%);
+ }
+
+ h1 {
+     display: block;
+     font-size: .3em;
+     margin-top: 0.67em;
+     margin-bottom: 0.67em;
+     margin-left: 0;
+     margin-right: 0;
+     font-weight: bold;
+ }
+
+ .title-overlay{
+   position: absolute;
+   z-index: 3;
+   top:20%;
+   bottom:0;
+   left:0;
+   right: 0;
+   text-align: center;
+ }
+
+ .header-overlay{
+   position: absolute;
+   z-index: 3;
+   top:12%;
+   bottom:0;
+   left:0;
+   right: 0;
+   text-align: center;
+ }
+
+ .btn-login {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+}
+
+.btn-home {
+   background-color: #4CAF50; /* Green */
+   border: none;
+   color: white;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 24px;
+}
+
+ .button-overlay{
+   position: absolute;
+   z-index: 3;
+   top: 50%;
+   bottom: 0;
+   left: 41.2%;
+   right: o;
+   text-align: center;
+ }

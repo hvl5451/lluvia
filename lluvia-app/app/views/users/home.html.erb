@@ -1,0 +1,15 @@
+<html>
+
+  <div style="color:#4CAF50; font-size:18vw;"class="header-overlay">
+    <h1>Generate your playlist here.</h1>
+  </div>
+
+  <div class="video-wrapper">
+    <%=video_tag "rainystreet.mp4", controls: false, autoplay: true, muted: true, loop: true, id: "bkgndvdo", class: "fullscreen-bg-video", type: "video/mp4"%>
+  </div>
+
+  <div class="button-overlay">
+    <%= link_to "Generate Playlist", generate_playlist_path, class: "btn btn-lg btn-home" %>
+  </div>
+
+</html>
