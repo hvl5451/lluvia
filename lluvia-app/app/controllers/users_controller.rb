@@ -23,7 +23,6 @@ class UsersController < ApplicationController
   end
 
   def login
-    puts "KEY: " + ENV["SPOTIFY_CLIENT_ID"]
   end
 
   def home
@@ -53,7 +52,6 @@ class UsersController < ApplicationController
   end
 
   def show_playlist
-
   end
 
 end
